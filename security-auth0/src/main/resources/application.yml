@@ -1,0 +1,8 @@
+auth0:
+  audience: https://springsecuritydemo.co.uk/api
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-n8e8u4s6.eu.auth0.com/
