@@ -1,0 +1,8 @@
+okta:
+  oauth2:
+    issuer: https://dev-429406.okta.com/oauth2/default
+    client-id: TO_DEFINE
+    client-secret: TO_DEFINE
+
+server:
+  port: 8090

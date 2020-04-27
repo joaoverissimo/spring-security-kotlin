@@ -1,0 +1,18 @@
+spring:
+  jackson:
+    default-property-inclusion: non_absent
+    serialization:
+      fail_on_empty_beans: false
+    deserialization:
+      adjust_dates_to_context_time_zone: false
+
+okta:
+  oauth2:
+    issuer: https://dev-429406.okta.com/oauth2/default
+    client-id: TO_DEFINE
+    client-secret: TO_DEFINE
+
+server:
+  port: 8080
+
+color-service-url: http://localhost:8090
