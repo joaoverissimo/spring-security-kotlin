@@ -1,6 +1,6 @@
 # Security Okta
 
-This project shows how to use okta on micro-services. There are two microservices:
+This project shows how to use okta using micro-services. There are two microservices:
 
 - `service-okta-banner`: create a banner object
 - `service-okta-color`: generate a random colour
